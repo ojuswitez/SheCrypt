@@ -5166,6 +5166,8 @@ a {
 }
 
 .glass-card {
+  height: 400px;
+  width: 285px;
   padding: 36px;
   border-radius: 16px;
   background-color: rgba(27, 26, 26, 0.45);
