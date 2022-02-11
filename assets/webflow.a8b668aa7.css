@@ -9690,7 +9690,7 @@ a {
 .div-heading {
   font-size: 1rem;
   font-weight: 700;
-  color: #0f61ff;
+  color: violet;
   margin-bottom: 1.5rem;
 }
 
@@ -9713,7 +9713,7 @@ a {
 }
 
 .div4 div button {
-  background-color: #0f61ff;
+  background-color: rgb(173, 33, 173);
   padding: 0.5rem;
   border: 0px;
   border-radius: 1rem;
@@ -9726,16 +9726,16 @@ a {
 .div4 div input {
   padding: 0.5rem;
   border-radius: 1rem;
-  border: 1px solid #0f61ff;
+  border: 1px solid rgb(173, 33, 173);
 }
 
 .div4 div button:hover {
-  background-color: darkblue;
+  background-color: purple;
   transition-duration: 1s;
 }
 
 .footer-line {
-  background-color: #0f61ff;
+  background-color: rgb(173, 33, 173);
   height: 2.5rem;
   text-align: center;
   display: flex;
