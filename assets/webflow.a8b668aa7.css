@@ -9690,7 +9690,7 @@ a {
 .div-heading {
   font-size: 1rem;
   font-weight: 700;
-  color: violet;
+  color: #b332ef;
   margin-bottom: 1.5rem;
 }
 
@@ -9713,7 +9713,7 @@ a {
 }
 
 .div4 div button {
-  background-color: rgb(173, 33, 173);
+  background-color: #b332ef;
   padding: 0.5rem;
   border: 0px;
   border-radius: 1rem;
@@ -9726,7 +9726,7 @@ a {
 .div4 div input {
   padding: 0.5rem;
   border-radius: 1rem;
-  border: 1px solid rgb(173, 33, 173);
+  border: 1px solid #b332ef;
 }
 
 .div4 div button:hover {
@@ -9735,7 +9735,7 @@ a {
 }
 
 .footer-line {
-  background-color: rgb(173, 33, 173);
+  background-color: #b332ef;
   height: 2.5rem;
   text-align: center;
   display: flex;
