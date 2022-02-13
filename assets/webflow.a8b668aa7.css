@@ -228,6 +228,7 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #333;
+  background-image: url("./background.svg");
 }
 img {
   max-width: 100%;
@@ -1432,24 +1433,6 @@ textarea.w-select {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-.w-lightbox-left {
-  display: none;
-  bottom: 0;
-  left: 0;
-  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0yMCAwIDI0IDQwIiB3aWR0aD0iMjQiIGhlaWdodD0iNDAiPjxnIHRyYW5zZm9ybT0icm90YXRlKDQ1KSI+PHBhdGggZD0ibTAgMGg1djIzaDIzdjVoLTI4eiIgb3BhY2l0eT0iLjQiLz48cGF0aCBkPSJtMSAxaDN2MjNoMjN2M2gtMjZ6IiBmaWxsPSIjZmZmIi8+PC9nPjwvc3ZnPg==");
-}
-.w-lightbox-right {
-  display: none;
-  right: 0;
-  bottom: 0;
-  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii00IDAgMjQgNDAiIHdpZHRoPSIyNCIgaGVpZ2h0PSI0MCI+PGcgdHJhbnNmb3JtPSJyb3RhdGUoNDUpIj48cGF0aCBkPSJtMC0waDI4djI4aC01di0yM2gtMjN6IiBvcGFjaXR5PSIuNCIvPjxwYXRoIGQ9Im0xIDFoMjZ2MjZoLTN2LTIzaC0yM3oiIGZpbGw9IiNmZmYiLz48L2c+PC9zdmc+");
-}
-.w-lightbox-close {
-  right: 0;
-  height: 2.6em;
-  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii00IDAgMTggMTciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxNyI+PGcgdHJhbnNmb3JtPSJyb3RhdGUoNDUpIj48cGF0aCBkPSJtMCAwaDd2LTdoNXY3aDd2NWgtN3Y3aC01di03aC03eiIgb3BhY2l0eT0iLjQiLz48cGF0aCBkPSJtMSAxaDd2LTdoM3Y3aDd2M2gtN3Y3aC0zdi03aC03eiIgZmlsbD0iI2ZmZiIvPjwvZz48L3N2Zz4=");
-  background-size: 18px;
-}
 .w-lightbox-strip {
   position: absolute;
   bottom: 0;
@@ -1958,36 +1941,6 @@ a {
   text-decoration: none;
 }
 
-.header {
-  position: relative;
-  z-index: 1;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  overflow: hidden;
-  padding: 120px 3% 80px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #000;
-  background-image: url("https://uploads-ssl.webflow.com/618bdb39629b12a794c27a72/618bfeaf06a60fb024a9a81f_Mask%20Group%20(15).png");
-  background-position: 100% 50%;
-  background-size: auto 100%;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-}
-
 .container {
   width: 100%;
   max-width: 1200px;
@@ -2241,40 +2194,6 @@ a {
   grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: 1fr;
   grid-template-rows: 1fr;
-}
-
-.services-grid-block {
-  position: relative;
-  z-index: 2;
-  width: 300px;
-  height: 400px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 50px 20px;
-  border: 1px none transparent;
-  border-radius: 7px;
-  background-color: #000;
-  background-image: url("https://uploads-ssl.webflow.com/618bdb39629b12a794c27a72/618e0f3afef332f10946f3f4_Group%201621.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  -webkit-transition: all 250ms ease;
-  transition: all 250ms ease;
-  text-align: center;
-  text-decoration: none;
-}
-
-.services-grid-block:hover {
-  border-style: solid;
-  border-width: 1px;
-  border-color: #f2a100;
-}
-
-.services-grid-block.alt {
-  background-image: url("https://uploads-ssl.webflow.com/618bdb39629b12a794c27a72/618e0f7ff9ab535d29151b10_Group%201620.png");
-}
-
-.services-grid-block.alt:hover {
-  border-color: #f2a100;
 }
 
 .icon-block {
@@ -2957,26 +2876,6 @@ a {
   letter-spacing: 1.5px;
 }
 
-.hero-button {
-  margin-top: 0px;
-  padding: 16px 45px;
-  border-radius: 100px;
-  background-color: #f2a100;
-  background-image: linear-gradient(84deg, #eab05d, #e1804c);
-  -webkit-transition: all 200ms ease;
-  transition: all 200ms ease;
-  color: #000;
-  font-size: 24px;
-  line-height: 21px;
-  text-transform: lowercase;
-}
-
-.hero-button:hover {
-  -webkit-transform: translate(0px, -2px);
-  -ms-transform: translate(0px, -2px);
-  transform: translate(0px, -2px);
-}
-
 .cta-section {
   position: relative;
   display: -webkit-box;
@@ -3025,13 +2924,6 @@ a {
   align-items: center;
   border-radius: 32px;
   background-color: #0e0d11;
-}
-
-.newsletter-block.exitedbg {
-  margin-bottom: 80px;
-  background-image: url("https://uploads-ssl.webflow.com/618bdb39629b12a794c27a72/618d66205a468a443b71661a_Group%201603%20(1).png");
-  background-position: 0px 0px;
-  background-size: auto;
 }
 
 .content-cta {
@@ -3262,13 +3154,6 @@ a {
   width: 100px;
 }
 
-.breaker {
-  width: 300px;
-  height: 2px;
-  margin-top: 5px;
-  background-image: linear-gradient(273deg, #737373, #fff 52%, #747474);
-}
-
 .image {
   height: 300px;
 }
@@ -3339,46 +3224,6 @@ a {
   text-transform: lowercase;
   background-clip: border-box;
   -webkit-text-fill-color: inherit;
-}
-
-.heading.partnershead {
-  background-image: linear-gradient(264deg, #f2a100, #fff);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.heading.aboutgrad {
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#eab05d),
-    to(#e1804c)
-  );
-  background-image: linear-gradient(180deg, #eab05d, #e1804c);
-  text-transform: lowercase;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.heading.bulidgrad {
-  background-image: linear-gradient(240deg, #e2864e, #fff);
-  font-size: 60px;
-  text-transform: uppercase;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.heading.whattoheading {
-  margin-bottom: 37px;
-  background-image: linear-gradient(264deg, #f2a100, #fff);
-  text-align: center;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .text-span {
@@ -3647,32 +3492,6 @@ a {
   border-radius: 16px;
 }
 
-.challenge__medals {
-  width: 50%;
-  padding: 70px;
-  background-image: url("https://uploads-ssl.webflow.com/618bdb39629b12a794c27a72/618d39e47809a85f0fc5930d_Group%201606%20(1).png");
-  background-position: 50% 50%;
-  background-size: auto;
-  background-repeat: no-repeat;
-}
-
-.challenge__medals.bgcha2 {
-  background-image: url("https://uploads-ssl.webflow.com/618bdb39629b12a794c27a72/618d3ad989c43660f67a57ca_Group%201611%20(1).png");
-}
-
-.challenge__medals.bgcha3 {
-  background-image: url("https://uploads-ssl.webflow.com/618bdb39629b12a794c27a72/618d3ee1da032a699cc7c323_Group%201617.png");
-}
-
-.challenge__medals.bgcha4 {
-  position: relative;
-  background-image: url("https://uploads-ssl.webflow.com/618bdb39629b12a794c27a72/618d3edf82f4a6f52010a0b3_Group%201618.png");
-}
-
-.challenge__medals.bgcha5 {
-  background-image: url("https://uploads-ssl.webflow.com/618bdb39629b12a794c27a72/618d3edcbb45d4223ea8030c_Group%201619.png");
-}
-
 .challenge__content {
   position: relative;
   display: -webkit-box;
@@ -3861,32 +3680,6 @@ a {
   -ms-flex-align: center;
   align-items: center;
   background-color: #000;
-}
-
-.resouces {
-  width: 100%;
-  background-color: #0e0d11;
-  background-image: url("https://uploads-ssl.webflow.com/618bdb39629b12a794c27a72/618bfcf2d34e6569d4e15cda_Mask%20Group%20(14).png");
-  background-position: 50% 50%;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-}
-
-.resouceshead {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  padding: 32px 60px;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-image: url("https://uploads-ssl.webflow.com/618bdb39629b12a794c27a72/618d3cef27bd0333a052146f_Group%201616.png");
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .image-7 {
@@ -4109,23 +3902,6 @@ a {
   text-transform: lowercase;
 }
 
-.heading-2 {
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#e9ad5c),
-    to(#e2834d)
-  );
-  background-image: linear-gradient(180deg, #e9ad5c, #e2834d);
-  font-size: 40px;
-  line-height: 48px;
-  text-transform: lowercase;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .text-block-7 {
   margin-top: 1px;
   padding-top: 16px;
@@ -4219,23 +3995,6 @@ a {
   background-color: hsla(0, 0%, 100%, 0.05);
 }
 
-.overlay-fade-bottom {
-  position: absolute;
-  left: 0%;
-  top: auto;
-  right: 0%;
-  bottom: 0%;
-  height: 80px;
-  background-image: -webkit-gradient(
-    linear,
-    left bottom,
-    left top,
-    from(#0a0a0a),
-    to(rgba(10, 10, 10, 0))
-  );
-  background-image: linear-gradient(0deg, #0a0a0a, rgba(10, 10, 10, 0));
-}
-
 .timeline_milestone-badge {
   display: inline-block;
   margin-bottom: 24px;
@@ -4254,23 +4013,6 @@ a {
   color: #fff;
   font-size: 14px;
   font-weight: 500;
-}
-
-.overlay-fade-top {
-  position: absolute;
-  left: 0%;
-  top: 0%;
-  right: 0%;
-  bottom: auto;
-  height: 80px;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#0a0a0a),
-    to(rgba(10, 10, 10, 0))
-  );
-  background-image: linear-gradient(180deg, #0a0a0a, rgba(10, 10, 10, 0));
 }
 
 .text-colour-lightgrey {
@@ -4340,15 +4082,6 @@ a {
   opacity: 1;
 }
 
-.timeline_image-wrapper {
-  overflow: hidden;
-  border-radius: 12px;
-  background-image: linear-gradient(138deg, #000, transparent 28%),
-    url("https://uploads-ssl.webflow.com/618bdb39629b12a794c27a72/618e07cf6df90415d3b855be_Image%20Background.png");
-  background-position: 0px 0px, 0px 0px;
-  background-size: auto, cover;
-}
-
 .timeline_quote-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -4403,16 +4136,6 @@ a {
   align-items: center;
 }
 
-.section-timeline {
-  position: relative;
-  z-index: -3;
-  background-color: #000;
-  background-image: url("https://uploads-ssl.webflow.com/618bdb39629b12a794c27a72/618e346185e12a1cb489ed81_Group%201622.png");
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
 .timeline_progress {
   position: absolute;
   z-index: -2;
@@ -4438,19 +4161,6 @@ a {
 
 .text-colour-white {
   color: #fff;
-}
-
-.timeline_progress-bar {
-  position: fixed;
-  left: auto;
-  top: 0px;
-  right: auto;
-  bottom: 50vh;
-  z-index: -1;
-  width: 3px;
-  height: 50vh;
-  background-color: #f2a100;
-  background-image: none;
 }
 
 .timeline_circle {
@@ -4763,15 +4473,12 @@ a {
 }
 
 .section._1 {
-  background-image: url("https://uploads-ssl.webflow.com/618bdb39629b12a794c27a72/61f383847323f0804adb9879_circles.svg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .section._2 {
-  background-image: url("https://uploads-ssl.webflow.com/618bdb39629b12a794c27a72/61f390ffae204a539b9dfa05_Ellipse%2018%20(Stroke)%20(1).svg"),
-    url("https://uploads-ssl.webflow.com/618bdb39629b12a794c27a72/61f390e3ea69d36ec680499a_Ellipse%2018%20(Stroke).svg");
   background-position: 100% 50%, 0% 50%;
   background-size: auto, auto;
   background-repeat: no-repeat, no-repeat;
@@ -4780,8 +4487,6 @@ a {
 .section._3 {
   padding-bottom: 100px;
   background-color: transparent;
-  background-image: url("https://uploads-ssl.webflow.com/618bdb39629b12a794c27a72/61f3948505308a5923f4ae78_Ellipse%2016%20(Stroke)%20(1).svg"),
-    url("https://uploads-ssl.webflow.com/618bdb39629b12a794c27a72/61f3948078ee219bdb84dc5e_Ellipse%2016%20(Stroke).svg");
   background-position: 100% 50%, 100% 0%;
   background-size: auto, auto;
   background-repeat: no-repeat, no-repeat;
@@ -4797,7 +4502,6 @@ a {
 }
 
 .body {
-  background-image: url("https://uploads-ssl.webflow.com/618bdb39629b12a794c27a72/61f37ddac0524774e4d75f9c_Group%20388.svg");
   background-position: 100% 0%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -5154,7 +4858,6 @@ a {
   z-index: -1;
   width: 330px;
   height: 340px;
-  background-color: #1d5a8f;
   -webkit-filter: blur(100px);
   filter: blur(100px);
 }
@@ -5162,7 +4865,6 @@ a {
 .gradient-blur.red {
   left: -25%;
   width: 360px;
-  background-color: #b3446c;
 }
 
 .glass-card {
@@ -5333,11 +5035,11 @@ a {
   align-items: center;
   border-radius: 16px 16px 16px 16px;
   background-color: #000;
-  background-image: url("https://uploads-ssl.webflow.com/618bdb39629b12a794c27a72/61f96acd6ed4870358da97d1_Group%20395.svg"),
-    url("https://uploads-ssl.webflow.com/618bdb39629b12a794c27a72/61f96ab2892c734b9329947d_Group%20393.svg");
   background-position: 0% 50%, 100% 50%;
   background-size: auto, auto;
   background-repeat: no-repeat, no-repeat;
+  background-image: url("./Rt5APj.jpg");
+  background-size: cover;
 }
 
 .card-text {
@@ -6052,14 +5754,6 @@ a {
   font-weight: 400;
 }
 
-.body-1 {
-  background-image: url("https://uploads-ssl.webflow.com/618bdb39629b12a794c27a72/61f8fc30da1162b3708ddb26_TPH%20Cover.png");
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  font-family: Gophertext, sans-serif;
-}
-
 .twitter {
   padding: 11px 14px;
   border-style: solid;
@@ -6295,29 +5989,6 @@ a {
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
-}
-
-.body-2 {
-  display: block;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
-  background-image: url("https://uploads-ssl.webflow.com/618bdb39629b12a794c27a72/61f390ffae204a539b9dfa05_Ellipse%2018%20(Stroke)%20(1).svg"),
-    url("https://uploads-ssl.webflow.com/618bdb39629b12a794c27a72/61f390e3ea69d36ec680499a_Ellipse%2018%20(Stroke).svg");
-  background-position: 100% 70%, 0% 70%;
-  background-size: auto, auto;
-  background-repeat: no-repeat, no-repeat;
-  font-family: Gophertext, sans-serif;
 }
 
 .div-block-142 {
@@ -7800,7 +7471,6 @@ a {
   }
 
   .body {
-    background-image: url("https://uploads-ssl.webflow.com/618bdb39629b12a794c27a72/61f37ddac0524774e4d75f9c_Group%20388.svg");
     background-position: 50% 0%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -8150,7 +7820,6 @@ a {
   }
 
   .body-1 {
-    background-image: url("https://uploads-ssl.webflow.com/618bdb39629b12a794c27a72/61f98eb8d942f89849a1b3cd_TPH-mobile-cover.png");
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -9669,6 +9338,7 @@ a {
   padding-top: 2.5rem;
   padding: 5rem;
   font-size: medium;
+  background-color: #f5f5f515;
 }
 
 .footer-bar a {
