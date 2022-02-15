@@ -228,7 +228,8 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #333;
-  background-image: url("./background.svg");
+  background-image: url("./background.png");
+  background-repeat: repeat;
 }
 img {
   max-width: 100%;
@@ -5044,7 +5045,6 @@ a {
 
 .card-text {
   height: 165px;
-  width: 400px;
   padding: 10px 32px 0px 32px;
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
