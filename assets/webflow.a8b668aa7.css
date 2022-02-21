@@ -4886,8 +4886,20 @@ a {
     );
 }
 
+.why-attend-card {
+  padding: 36px;
+  border-radius: 16px;
+  display: flex;
+}
+
 .image-18 {
   margin-bottom: 32px;
+}
+
+.why-attend-icon {
+  width: 64px;
+  height: 64px;
+  margin-right: 32px;
 }
 
 .div-block-3 {
@@ -5691,9 +5703,10 @@ a {
   width: 90px;
 }
 
-.div-block-131 {
+.div-block-1311 {
   -webkit-perspective: 1000px;
   perspective: 1000px;
+  width: 50%;
 }
 
 .div-block-132 {
