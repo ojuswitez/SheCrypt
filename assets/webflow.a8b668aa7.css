@@ -5399,7 +5399,6 @@ a {
 
 .div-block-125 {
   position: relative;
-  width: 50%;
   margin-bottom: 60px;
 }
 
@@ -5514,6 +5513,9 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
 }
 
 .div-block-129 {
@@ -5707,6 +5709,28 @@ a {
   -webkit-perspective: 1000px;
   perspective: 1000px;
   width: 50%;
+}
+
+@media (max-width: 990px) {
+  .for-desktop {
+    display: none;
+  }
+
+  .div-block-1311 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 991px) {
+  .section.hero {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .section {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
 
 .div-block-132 {
@@ -6416,6 +6440,8 @@ a {
 
   .section._4 {
     padding-top: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   .h1 {
@@ -9344,9 +9370,8 @@ a {
 }
 
 .footer-bar {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
   justify-content: space-around;
   padding-top: 2.5rem;
   padding: 5rem;
@@ -9383,10 +9408,6 @@ a {
 
 .footer-bar span {
   font-weight: 600;
-}
-
-.div4 {
-  text-align: right;
 }
 
 .div4 div {
