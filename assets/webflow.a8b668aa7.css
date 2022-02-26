@@ -5782,6 +5782,9 @@ a {
   width: 250px;
   height: 250px;
   border-radius: 1000px;
+  border-style: solid;
+  border-color: #b332ef;
+  border-width: 2px;
   -o-object-fit: cover;
   object-fit: cover;
 }
