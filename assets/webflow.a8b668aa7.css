@@ -5414,8 +5414,8 @@ a {
 .web3-people-card {
   position: relative;
   z-index: auto;
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border-style: solid;
   border-width: 1px;
   border-color: hsla(0, 0%, 100%, 0.3);
@@ -5779,8 +5779,8 @@ a {
 }
 
 .speaker-image {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border-radius: 1000px;
   border-style: solid;
   border-color: #b332ef;
