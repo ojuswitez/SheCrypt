@@ -229,7 +229,7 @@ body {
   line-height: 20px;
   color: #333;
   background-image: url("./background.png");
-  background-repeat: repeat;
+  background-size: cover;
 }
 img {
   max-width: 100%;
@@ -4505,7 +4505,6 @@ a {
 .body {
   background-position: 100% 0%;
   background-size: cover;
-  background-repeat: no-repeat;
   font-family: Gophertext, sans-serif;
 }
 
@@ -5712,10 +5711,6 @@ a {
 }
 
 @media (max-width: 990px) {
-  .for-desktop {
-    display: none;
-  }
-
   .div-block-1311 {
     width: 100%;
   }
@@ -7515,7 +7510,6 @@ a {
   .body {
     background-position: 50% 0%;
     background-size: cover;
-    background-repeat: no-repeat;
   }
 
   .h1 {
@@ -9455,4 +9449,31 @@ a {
 .footer-line p {
   letter-spacing: 0.15rem;
   word-spacing: 0.25rem;
+}
+
+.slider-post h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.slider-post div {
+  color: rgb(200, 200, 200);
+}
+
+@media (max-width: 990px) {
+  .for-desktop {
+    display: none;
+  }
+  .div-block-1311 {
+    width: 100%;
+  }
+}
+
+.VueCarousel-dot-button {
+  color: white;
 }
