@@ -9477,3 +9477,9 @@ a {
 .VueCarousel-dot-button {
   color: white;
 }
+
+div p a {
+  color: black;
+  text-decoration: underline;
+  word-wrap: break-word
+}
