@@ -9653,3 +9653,8 @@ a {
     border-radius: 0 500px 500px 500px;
   }
 }
+div p a {
+  color: black;
+  text-decoration: underline;
+  word-wrap: break-word;
+}
