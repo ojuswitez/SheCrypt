@@ -9493,7 +9493,7 @@ a {
 
 .timeline::after {
   margin-top: 50px;
-  margin-bottom: 80px;
+  margin-bottom: 125px;
   content: "";
   position: absolute;
   width: 5px;
